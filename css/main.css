@@ -30,6 +30,10 @@ small {
     background-image: url('../assets/background.png');
 }
 
+.full {
+    height: 720px !important;
+}
+
 #topbar {
     position: absolute;
     width: 1280px;
@@ -64,6 +68,18 @@ small {
     overflow: hidden !important;
 }
 
+.full #sidebar {
+    height: 720px;
+}
+
+.user {
+    display: none;
+}
+
+.full .user {
+    display: block;
+}
+
 .sidebarElement {
     width: 160px;
     height: 120px;
@@ -88,6 +104,7 @@ small {
 
 .close {
     background-image: url('../assets/closeGrad.png');
+    border-radius: 0px 0px 60px 0px;
 }
 
 .close img {
@@ -128,6 +145,10 @@ small {
     left: 253px;
     top: 70px;
     overflow: scroll;
+}
+
+.full #content {
+    height: 620px;
 }
 
 .card {
